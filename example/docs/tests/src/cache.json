@@ -1,0 +1,12 @@
+{
+  "pagesChecksum": [
+    {
+      "path": "http://localhost:5000/",
+      "checksum": "1d1613aa377bdaeeddfe63baa71962e3"
+    },
+    {
+      "path": "http://localhost:5000/get-started",
+      "checksum": "1d1613aa377bdaeeddfe63baa71962e3"
+    }
+  ]
+}

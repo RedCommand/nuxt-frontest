@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "generate": "nuxi generate",
+    "prepare": "nuxi prepare",
+    "test": "jest",
+    "test:reference": "jest -stage=reference",
+    "test:approve": "jest -stage=approve",
+    "test:report": "jest -stage=report"
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.3.1",
+    "@nuxt-themes/docus": "npm:@nuxt-themes/docus-edge@latest",
+    "@nuxtlabs/github-module": "npm:@nuxtlabs/github-module-edge@latest",
+    "@types/jest": "^29.2.3",
+    "ts-jest": "^29.0.3",
+    "backstopjs": "^6.1.4",
+    "jest-dev-server": "^6.1.1",
+    "jest-puppeteer": "^6.1.1",
+    "node-fetch-commonjs": "^3.2.4",
+    "nuxt": "npm:nuxt3@latest"
+  }
+}

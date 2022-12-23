@@ -1,0 +1,152 @@
+report({
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/nuxt-image___0_document_0_phone.png",
+        "test": "../bitmaps_test/20221222-164411/nuxt-image___0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "nuxt-image___0_document_0_phone.png",
+        "label": "/",
+        "misMatchThreshold": 0.05,
+        "url": "http://localhost:5000/",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.025826446280991736,
+          "misMatchPercentage": "0.03",
+          "analysisTime": 59
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/nuxt-image___0_document_1_tablet.png",
+        "test": "../bitmaps_test/20221222-164411/nuxt-image___0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "nuxt-image___0_document_1_tablet.png",
+        "label": "/",
+        "misMatchThreshold": 0.05,
+        "url": "http://localhost:5000/",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.01326195987654321,
+          "misMatchPercentage": "0.01",
+          "analysisTime": 61
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/nuxt-image___0_document_2_desktop.png",
+        "test": "../bitmaps_test/20221222-164411/nuxt-image___0_document_2_desktop.png",
+        "selector": "document",
+        "fileName": "nuxt-image___0_document_2_desktop.png",
+        "label": "/",
+        "misMatchThreshold": 0.05,
+        "url": "http://localhost:5000/",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.00032552083333333337,
+          "misMatchPercentage": "0.00",
+          "analysisTime": 175
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/nuxt-image__get-started_0_document_0_phone.png",
+        "test": "../bitmaps_test/20221222-164411/nuxt-image__get-started_0_document_0_phone.png",
+        "selector": "document",
+        "fileName": "nuxt-image__get-started_0_document_0_phone.png",
+        "label": "/get-started",
+        "misMatchThreshold": 0.05,
+        "url": "http://localhost:5000/get-started",
+        "expect": 0,
+        "viewportLabel": "phone",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.36788784281620956,
+          "misMatchPercentage": "0.37",
+          "analysisTime": 50
+        },
+        "diffImage": "../bitmaps_test/20221222-164411/failed_diff_nuxt-image__get-started_0_document_0_phone.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/nuxt-image__get-started_0_document_1_tablet.png",
+        "test": "../bitmaps_test/20221222-164411/nuxt-image__get-started_0_document_1_tablet.png",
+        "selector": "document",
+        "fileName": "nuxt-image__get-started_0_document_1_tablet.png",
+        "label": "/get-started",
+        "misMatchThreshold": 0.05,
+        "url": "http://localhost:5000/get-started",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.007904479396615158,
+          "misMatchPercentage": "0.01",
+          "analysisTime": 79
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/nuxt-image__get-started_0_document_2_desktop.png",
+        "test": "../bitmaps_test/20221222-164411/nuxt-image__get-started_0_document_2_desktop.png",
+        "selector": "document",
+        "fileName": "nuxt-image__get-started_0_document_2_desktop.png",
+        "label": "/get-started",
+        "misMatchThreshold": 0.05,
+        "url": "http://localhost:5000/get-started",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -374
+          },
+          "rawMisMatchPercentage": 18.446759578280044,
+          "misMatchPercentage": "18.45",
+          "analysisTime": 225
+        },
+        "diffImage": "../bitmaps_test/20221222-164411/failed_diff_nuxt-image__get-started_0_document_2_desktop.png"
+      },
+      "status": "fail"
+    }
+  ],
+  "id": "nuxt-image"
+});
